@@ -1,0 +1,144 @@
+.view-records-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-records-container h2,
+  .view-records-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .entity-selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .entity-selection label {
+    font-weight: bold;
+  }
+  
+  .entity-selection select,
+  .entity-selection button {
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .entity-selection button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .entity-selection button:hover {
+    background-color: #0056b3;
+  }
+  
+  .records-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .records-table th,
+  .records-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .records-table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .records-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .records-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .records-table .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .records-table .actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .records-table .actions .update-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .records-table .actions .update-button:hover {
+    background-color: #218838;
+  }
+  
+  .records-table .actions .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .records-table .actions .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .update-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-form div {
+    margin-bottom: 15px;
+  }
+  
+  .update-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .update-form input,
+  .update-form .react-datepicker-wrapper {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-form button:hover {
+    background-color: #0056b3;
+  }
+  
